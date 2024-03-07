@@ -740,12 +740,21 @@ header{
 
 .splide{margin-top: 50px;}
 
-@media (max-width: 767px){
+@media (max-width: 550px){
     .splide__arrows--rtl .splide__arrow--prev{
-        right: 22%!important;
+        right: -4%!important;
     }
     .splide__arrows--rtl .splide__arrow--next{
-        left: 22%!important;
+        left: -4%!important;
+}
+}
+
+@media (min-width: 551px){
+    .splide__arrows--rtl .splide__arrow--prev{
+        right: 9%!important;
+    }
+    .splide__arrows--rtl .splide__arrow--next{
+        left: 9%!important;
 }
 }
 
